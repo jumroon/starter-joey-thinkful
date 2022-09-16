@@ -1,0 +1,31 @@
+header{
+  background-color: #0B1C51;
+}
+
+header h1{
+font-size: 48px;
+color: aliceblue;
+text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+header nav ul li a{
+  font-family: Montserrat;
+  color: antiquewhite;
+  text-align: center;
+}
+
+@media all and (min-width: 600px){
+
+  header h1{
+    font-size: 52px;
+  }
+}
+
